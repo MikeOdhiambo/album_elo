@@ -9,4 +9,4 @@ I use a k-factor of 24.
 Given two ratings *r1* and *r2*
 
 1. 	Compute the transformed ratings $$R1={10^{r1\over400}}$$ and $$R2={10^{r2\over400}}$$
-2.  Calculate the expected scores $$E1={R1}\over{R1+R2}$$ and $$E2={R2}\over{R1+R2}$$
+2.  Calculate the expected scores $$E1={{R1}\over{R1+R2}}$$ and $$E2={{R2}\over{R1+R2}}$$
