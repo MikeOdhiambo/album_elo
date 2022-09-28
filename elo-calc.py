@@ -2,6 +2,7 @@
 """Simple program that stores and ranks albums based on the elo calculation"""
 import json
 import sys
+import unittest
 
 
 # Load the json file contents into a variable
@@ -35,7 +36,7 @@ def updElo(rat, opt, exp):
 	"""Calculates the elo rating
 
 	Args:
-		rat (number): Current ranting
+		rat (number): Current rating
 		opt (int): Actual score value
 		exp (number): Expected score
 
@@ -144,6 +145,12 @@ def entry():
         print("Kindly use numeric value options 1, 2 or 3")
         entry()
 
+
+# class TestUpdElo(unittest.TestCase):
+#     # The Update ELO funtion
+#     def test_updElo(self):
+        
+    
 
 if __name__ == "__main__":
     entry()
